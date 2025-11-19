@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_content_blocks_codes",
+  "info": {
+    "displayName": "code",
+    "icon": "code"
+  },
+  "options": {},
+  "attributes": {
+    "language": {
+      "type": "enumeration",
+      "enum": [
+        "css",
+        "javascript",
+        "json",
+        "jsx",
+        "markup",
+        "php",
+        "python",
+        "typescript"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "code": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}
